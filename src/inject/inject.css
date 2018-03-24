@@ -1,0 +1,249 @@
+div.newnav{
+	position: fixed;
+	top: 175px;
+	left:0;
+	height: 90px;
+	width: 100px;
+	background-color: rgba(0,0,0,0.8);
+	padding:0;
+	padding: 20px 0px;
+	margin:0;
+	text-align: center;
+	z-index: 9999;
+	padding-left: 5px;
+	border-width: 1px 1px 1px 0;
+	border-color: white;
+	border-style: solid;
+}
+
+div.newnavmenu{
+	position: fixed;
+	left: 10px;
+	top: 175px;
+	height: 500px;
+	width: 400px;
+	z-index: 999;
+	background-color: rgba(0,0,0,0.8);
+	padding: 20px 0px;
+	text-align: left;
+	transition: 1s;
+	color: white;
+}
+
+
+.newnavmenu>div{
+	position: absolute;
+	top: 10px;
+	left:0;
+	margin-left: 50%;
+	transform: translatex(-50%);
+	text-align: center;
+	width: 90%;
+	display: inline-block;
+	text-align: left;
+}
+
+.newnavmenu>div.show{
+
+	opacity: 1;
+	transition: 1s;
+}
+
+.newnavmenu>div.hide{
+	left: -500px;
+	opacity: 0;
+	transition: 1s;
+	
+}
+
+div.newnavmenu.menu-width-500{
+left: 1px;
+transition: 1s;
+}
+
+div.newnavmenu.menu-width-100{
+left: -500px;
+transition: 1s;
+}
+div.newnav.menu-width-500{
+left: 1px;
+transition: 1s;
+}
+
+div.newnav.menu-width-100{
+left: -500px;
+transition: 1s;
+}
+
+
+div.newnav button{
+
+	color: white;
+	border-color: white;
+	padding: 2px 0px;
+	border-radius: 20px;
+	font-size: 1em;
+}
+
+
+/*
+div.newnav button:hover{
+	color:black;
+	background-color: white;
+	transition: 1s;
+	
+}
+*/
+
+#resetbtn{
+	color: white;
+	border-color: white;
+	border-width: 1px;
+	border-style: solid;
+	padding: 2px 10px;
+	margin-top: 8px;
+}
+
+
+#startlovebot{
+	margin-top: 15px;
+	
+}
+
+div.newnavmenu.menu-width-500{
+	
+	
+	transition: 1s;
+}
+
+
+
+
+
+div.newnavmenu>div h1{
+font-size: 2em;
+}
+
+div.newnavmenu>div p{
+font-size: .8em;
+}
+
+div.newnavmenu>div button{
+width: 100%;
+border-color: white;
+border-width: 1px;
+background-color:transparent;
+border-style: solid;
+height: 50px;
+vertical-align: top;
+margin-top: 30px;
+}
+
+div.newnavmenu>div select{
+display: inline-block;
+width: 100%;
+height: 50px;
+border-style: solid;
+background-color: transparent;
+border-color: white;
+border-width: 1px;
+display: inline-block;
+font-size: 1em;
+margin:0;
+vertical-align: top;
+border-radius: 0;
+color:white;
+margin-bottom: 10px;
+}
+
+div.newnav p{
+	color:white;
+	margin-bottom: 150px;
+	
+}
+
+
+div.newnavmenu textarea{
+	width: 100%;
+	height: 200px;
+	display: inline-block;
+	background-color: transparent;
+	border-color: rgba(255,255,255,0.0);
+	border-style: solid;
+	border-width: 1px;
+	margin-top: 20px;
+	font-size: .8em;
+	 outline:0px !important;
+    -webkit-appearance:none;
+}
+
+div.newnavmenu span{
+	
+	margin: 15px 0px 0 0px;
+	width: 25%;
+	display: inline-block;
+	text-align: center;
+	
+}
+
+#alreadyloved{
+	
+	margin: 0 40px;
+	
+}
+
+div.newnavmenu .stats{
+	width: 100%;
+	text-align: left;
+}
+
+.stats p{
+	font-size: 1.5em;
+	
+	
+}
+
+
+
+#newloves input, #alreadyloved input, #totalposts input{
+	border-color: transparent;
+	background-color: transparent;
+	color:white;
+	width: 100%;
+	text-align: center;
+	font-size: 1.5em;
+	
+}
+
+
+span.warning{
+width: 400px;
+display: inline-block;
+}
+
+p.warning{
+display: inline-block;
+margin-top: -10px;
+margin-bottom: -10px;
+font-size: 0.3em;
+color: #ffdf14;
+}
+
+p.aboutLoveBot{
+	
+	margin-top: -5px;
+	padding-bottom: 10px;
+
+}
+
+
+div.newnavmenu>div button#likebot{
+	
+	top:-40px;
+	border-width: 0px;
+	left: 350px;
+	position: absolute;
+	width: 10px;
+	padding:none;
+	
+}
